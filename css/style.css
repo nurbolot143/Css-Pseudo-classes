@@ -74,3 +74,80 @@ h6 {
   font-weight: inherit;
 }
 /*--------------------*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #273d46;
+  background: #e6e6e6 url("../img/Ellipse1.png") 50% 106px no-repeat;
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+ul {
+  margin-bottom: 40px;
+}
+
+ul li {
+  background: url("../img/icons/li.svg") left 10px no-repeat;
+  padding-left: 37px;
+  font-size: 20px;
+  line-height: 1.8;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.list1 li:nth-child(1) {
+  color: rgb(39, 61, 70);
+  text-decoration: line-through;
+}
+
+.list1 li:nth-child(3) {
+  font-style: italic;
+}
+
+.list1 li:nth-child(4) {
+  text-transform: uppercase;
+}
+
+.list2 li:hover {
+  color: red;
+  fill: red;
+}
+
+.link {
+  display: inline-block;
+  padding: 17px 57px 17px 29px;
+  border-radius: 35px;
+  background: #80b7b3 url("../img/icons/arrow.svg") calc(100% - 27px) 50%
+    no-repeat;
+  font-size: 14px;
+  letter-spacing: 2.5px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+.link:hover {
+  background-color: #3a5856;
+}
+
+.link:active {
+  background-color: #818181;
+}
+
+.textinput {
+  margin: 20px 0;
+  width: 300px;
+  height: 40px;
+  border: #273d46 1px solid;
+  padding: 10px 20px;
+}
+
+.textinput:focus {
+  border: #80b7b3;
+
+  box-shadow: 0 0 5px 3px #80b7b3;
+}
